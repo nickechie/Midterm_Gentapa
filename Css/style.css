@@ -670,7 +670,7 @@ margin-bottom: 1px;
   width: 293px;
   height: 145px;
   background: #ff0000;
-  border: 2px solid #ffffff;
+  border: 2px solid #ff0505;
   border-radius: 5px;
   display: flex;
   align-items: center;
@@ -680,9 +680,17 @@ margin-bottom: 1px;
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 75px;
-  color:#ffffff;
+  color:#ff1e1e;
   margin-top: 16px;
 }
+
+.pricing-box .peso1 {
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: 400;
+  margin-right: 2px;
+}
+
 .pricing-box .peso {
   margin-top: 40px;
   font-size: 20px;
@@ -690,12 +698,16 @@ margin-bottom: 1px;
   margin-right: 2px;
 }
 
-.pricing-box .peso, .pricing-box .per, .install-fee .peso, .install-fee .per {
-  color: #ffffff;
+.pricing-row .peso1, .big-price-red, .per{
+  color: white;
+}
+
+.pricing-box .install-fee, .peso, .install-fee .per {
+  color: #4b4b4b;
   
   
 }
-.pricing-box .per, .install-fee .per {
+.pricing-box .install-fee .per {
   font-weight: 700;
   margin-top: 40px; 
 }
