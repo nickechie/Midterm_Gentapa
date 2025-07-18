@@ -669,8 +669,8 @@ margin-bottom: 1px;
 .pricing-box {
   width: 293px;
   height: 145px;
-  background: #fff;
-  border: 2px solid #D4111A;
+  background: #ff0000;
+  border: 2px solid #ffffff;
   border-radius: 5px;
   display: flex;
   align-items: center;
@@ -680,7 +680,7 @@ margin-bottom: 1px;
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 75px;
-  color:#F4222B;
+  color:#ffffff;
   margin-top: 16px;
 }
 .pricing-box .peso {
@@ -691,7 +691,7 @@ margin-bottom: 1px;
 }
 
 .pricing-box .peso, .pricing-box .per, .install-fee .peso, .install-fee .per {
-  color: #000000AB;
+  color: #ffffff;
   
   
 }
